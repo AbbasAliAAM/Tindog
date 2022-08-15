@@ -1,0 +1,159 @@
+body{
+  font-family: "Montserrat";
+}
+h1 {
+  
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+/* NavBAr */
+.navbar{
+  padding-bottom: 4.5rem;
+
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0 0 4px;
+  
+}
+.navbar-brand:hover{
+  color: white;
+}
+.nav-link{
+  color:rgb(207, 192, 192);
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+/* Download button */
+.download-button{
+  margin:5% 3% 5% 0%;
+}
+.title-img{
+height: 120%;
+width: 24%;
+transform: rotate(25deg);
+position: absolute;
+z-index: 0;
+right: 25%;
+}
+#features{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+ position: relative;
+ z-index: 1;
+  
+}
+
+.h3-logo{
+  color: #ef8172;
+  font-size: large;
+}
+
+.h3-logo:hover{
+  color: #ff4c68;
+}
+
+/* Features section */
+
+h3{
+  
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.features-p{
+  color: #8f8f8f;
+}
+
+/* Testimonial */
+
+#testimonials{
+ background-color: #ef8172;;
+  text-align: center;
+  color: #fff;
+ 
+}
+.testimonial-img{
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testimonial-h2{
+  
+  font-weight: bold;
+  line-height: 3rem;
+}
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding: 100px;
+}
+.pricing_col{
+  padding: 3% 2%;
+}
+.pricing-h2{
+  
+  font-weight: bold;
+  line-height: 3rem;
+  font-size: 350%;
+}
+
+#cta{
+  padding: 7% 20%;
+  text-align: center;
+  background-color: #ff4c68;
+}
+.cta-h3{
+  font-family: "Montserrat-Black";
+  font-weight: bold;
+  line-height: 3rem;
+  font-size: 3.5rem;
+  color: #fff;
+}
+#footer{
+  text-align: center;
+  padding: 20px;
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+/* media query breakpoints */
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    width: 70%;
+  }
+}
